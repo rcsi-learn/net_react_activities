@@ -1,0 +1,12 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:Activities}/API/activities.db",
+            "name": "activities"
+        }
+    ],
+    "dotnet.defaultSolution": "Activities.sln"
+}
